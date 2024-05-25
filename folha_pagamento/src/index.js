@@ -1,5 +1,3 @@
-const calcularImpostoRenda = require("./calculo_imposto_renda");
-const calcularINSS = require("./calculo_inss");
+const calcularSalarioLiquido = require("./calculo_salario_liquido");
 
-console.log(calcularINSS(2600).toFixed(2));
-console.log(calcularImpostoRenda(5000).toFixed(2));
+console.log(calcularSalarioLiquido(3000, 60.40).toFixed(2));
